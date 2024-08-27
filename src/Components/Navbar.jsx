@@ -9,7 +9,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="container mx-auto shadow-2xl px-4 ro">
+    <div className="container mx-auto shadow-2xl px-4">
       <div className="flex items-center justify-between py-4">
         <div className="flex items-center">
           <img src={logo} className="w-[30px]" alt="logo" />

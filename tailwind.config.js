@@ -2,10 +2,9 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    // screens: {
-    //   Monitor: "1920px",
-    //   // => @media (min-width: 1920px) { ... }
-    // },
+    container: {
+      center: true,
+    },
     extend: {
       fontFamily: {
         inter: ["Inter", "sans-serif"],
